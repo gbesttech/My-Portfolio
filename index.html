@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5e0aab2555.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-------------HOME BEGINS--------------->
+    <div class="wrapper" id="home">
+        <h2 class="title">
+             G.BESTT<span class="span1">TECH</span>
+        </h2>
+        <div class="nav-links">
+            <nav>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>   
+             <div class="header-text">
+                <h4 class="head-p">FRONTEND WEB DEV.</h4>
+                <h2 class="h-text">Hi, Im Shodeke Gbenga Paul ceo of<br>    
+                <span class="span2">G.BESTT</span> TECH </h2>
+            </div>  
+            <img src="picture.png" class="pic">    
+    </div>
+    <!-----------------HOME ENDS--------------------->
+
+    <!----------------ABOUT BEGINS----------------->
+    <div id="about">
+        <div class="container">
+            <div id="row">
+                <div class="about-col-1">
+                    <img src="pic3.png" class="pic3">
+                </div>
+                <div class="about-col-2">
+                    <h2>ABOUT ME</h2>
+                    <p class="about-text">
+                        Meticulous web developer with over a years of front 
+                        <br> end experience and passion for responsive website 
+                        <br> design and a firm believer in the mobile-first approach.  
+                        <br> Implemented new responsive website approach which increased mobile traffic by 20%.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Designing Web Skeloton</li>
+                            <li><span>CSS</span><br>Adding Designs and Colors to the web</li>
+                            <li><span>JAVASCRIPT</span><br>Web functioning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>50 Project</span><br>currently in a community program 
+                                of building 50 project to be a professional web developer.</li>
+                            <li><span>Mentored by a professional</span><br>6 months of strong practice
+                                of wed development and Mentored by a professional.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Primary institution</span><br>God's Grace Inte. school
+                                <br>from 2003-2011</li>
+                            <li><span>Secondary institution</span><br>Immavero Comprehensive High school
+                                <br>from 2012-2018</li>
+                            <li><span>Tertiary institution</span><br>Yaba School of Technology
+                                <br>from 2019-2022</li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!--------------------ABOUT ENDS---------------------->
+
+    <!--------------------SERVICE BEGINS------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="list1">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>The term "web design" is normally used to describe the design process 
+                    relating to the front-end (client side) design of 
+                    a website including writing markup. Web design partially overlaps web
+                    engineering in the broader scope of web development. Web designers are expected 
+                    to have an awareness of usability and be up to date with web accessibility guidelines.</p>
+                    <a href="">learn more</a>
+                </div>
+                <div class="list2">
+                    <i class="fa-solid fa-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design is an ongoing process comprising user experience (UX) and user interface (UI) 
+                    elements. Designers ideate, define solutions, create the app's flow and structure, and 
+                    make stylistic choices from colors to fonts. Designers base choices on user research along
+                    with standard designs and feedback.7 Nov 2022.</p>
+                    <a href="">learn more</a>
+                </div>
+                <div class="list3">
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development is the building and maintenance of websites; it's the work that happens
+                    behind the scenes to make a website look great, work fast and perform well with a seamless
+                    user experience. Web developers, or 'devs', do this by using a variety of coding languages 
+                    such as Hypertext Markup language(HTML), CSS. JAVASCRIPT.</p>
+                    <a href="">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------SERVICES ENDS HERE------------->
+
+    <!---------PORTFOLIO BEGINS--------------->
+    <div class="portfolio" id="portfolio">
+            <h1>MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="mobile3.png" style="width: 30%; height: 45vh;">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the people around the world, <br>
+                             they include social app such as facebook, twitter, whatsapp, e.t.c
+                        Download it from play store
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="tablet.png" style="width: 30%; height: 45vh;">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the people around the world.
+                        Download it from play store
+                        </p>
+                </div>
+                <div class="work">
+                    <img src="laptop.png" style="width: 30%; height: 45vh;">
+                    <div class="layer">
+                        <h3>    Music App</h3>
+                        <p>The app connects you to the people around the world.
+                        Download it from play store
+                        </p>
+                </div>
+            </div>
+    </div>
+    <!------------contact----------->
+    <div id="contact">
+        <div class="container">
+            <h1 class="subtitile">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> gshodeke@gmail.com</p>
+            <p><i class="fa-solid fa-phone-rotary"></i> Phone N0: 08186052019</p>
+            <div class="social-icons">
+                <a href="https://web.facebook.com/oluwagbenga.shodeke"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="https://twitter.com/gbesttttt"><i class="fab fa-twitter-square"></i>twitter</a>
+                <a href="https://www.instagram.com/g_besttt/"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="https://www.linkedin.com/in/gbenga-shodeke-aa0048264/"><i class="fab fa-linkedin"></i>Linkedin</a>
+            </div>
+        </div>
+
+        <p class="home-link"><a href="#home">Back to home</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
